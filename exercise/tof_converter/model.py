@@ -9,6 +9,10 @@ from __future__ import (absolute_import, division, print_function)
 
 import math
 
+"""
+Original author: Thomas Brooks, 2016
+"""
+
 # Used by converter GUI to do unit conversions
 
 
