@@ -18,14 +18,16 @@ class TofConverterView(base, form):
         # List of widgets
         # the input value text box
         self.InputVal  # type: QLineEdit
+        # self.InputVal.text() for getting the text
         # the `Convert` button
-        self.convertButton  # type: QPushButton
+        self.convertButton.clicked.connect(self.presenter.action_convert)
         # the text box for the converted value
         self.convertedVal  # type: QLineEdit
         # the help button
         self.helpButton  # type: QPushButton
         # the input units
         self.inputUnits  # type: QComboBox
+        # self.inputUnits.currentText() for the text of the current item
         # the output units
         self.outputUnits  # type: QComboBox
         # the scaterring angle input text box
