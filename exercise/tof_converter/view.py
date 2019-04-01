@@ -20,7 +20,7 @@ class TofConverterView(base, form):
         self.InputVal  # type: QLineEdit
         # self.InputVal.text() for getting the text
         # the `Convert` button
-        self.convertButton.clicked.connect(self.presenter.action_convert)
+        self.convertButton
         # the text box for the converted value
         self.convertedVal  # type: QLineEdit
         # the help button
